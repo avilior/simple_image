@@ -20,7 +20,10 @@ Hello from github
 ```
 
 The build happens in the context of the github repo.  How does docker do that?
-Is it cloneing the image to the local machine and perform the build there?
+
+The system clones the repo locally and then passes the context to the Docker Daemon.
+
+https://docs.docker.com/engine/reference/commandline/build/#git-repositories
 
 
 
